@@ -1,7 +1,7 @@
 purehugo
 ========
 
-Hugo theme based on [purecss](http://purecss.io/) from Yahoo. The theme is based on [the purecss blog layout example](http://purecss.io/layouts/blog/), is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), google analytics, disqus comments and even a mini-asset-pipeline using gulp. If you end up using it, I'd love to see what you do with it so please give me a shout on [twitter](https://twitter.com/dragos_plesca).
+Hugo theme based on [purecss](http://purecss.io/) from Yahoo. The theme is based on [the purecss blog layout example](http://purecss.io/layouts/blog/), is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), google analytics, and even a mini-asset-pipeline using gulp. If you end up using it, I'd love to see what you do with it so please give me a shout on [twitter](https://twitter.com/dragos_plesca).
 
 ### Installation
 
@@ -21,7 +21,6 @@ languageCode = "en-us"
 title = "purehugo"
 theme = "purehugo"
 Paginate = 10
-disqusShortname = "xxxx"
 
 [params]
   twitterName = "dragos_plesca"
@@ -32,7 +31,7 @@ disqusShortname = "xxxx"
   google_analytics = "UA-xxxxxx-xx"
 ```
 
-Notice the configuration necessary for disqus comments (just setting the disqusShortname); the twitter, github, stack overflow and linkedin handlers (for the site sidebar); the site description and enabling Google Analytics reporting.
+Notice the configuration necessary for the twitter, github, stack overflow and linkedin handlers (for the site sidebar); the site description and enabling Google Analytics reporting.
 
 ### Responsive Images
 
