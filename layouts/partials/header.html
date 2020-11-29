@@ -33,8 +33,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
 
-    {{ $css := resources.Get "css/blog.css" }}
-    {{ $style := $css | resources.Minify }}
+    {{ $css := resources.Get "css/blog.css" -}}
+    {{- $style := $css | resources.Minify -}}
     <link rel="stylesheet" href='{{ $style.RelPermalink }}'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
