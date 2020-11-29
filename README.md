@@ -40,16 +40,6 @@ For responsive images you could use the built-in responsive image shortcode (wit
 {{%/* img-responsive "http://example.com/image.jpg" */%}}
 ```
 
-### Hide Share Options
-
-If you would like to hide the share options in the single post view, you can add this option in the `params` section of your config file.
-
-```toml
-[params]
-  # ... other options ...
-  hideShareOptions = true
-```
-
 ### Hide Sidebar icons text Options
 
 
