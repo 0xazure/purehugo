@@ -1,7 +1,9 @@
 purehugo
 ========
 
-Hugo theme based on [purecss](http://purecss.io/) from Yahoo. The theme is based on [the purecss blog layout example](http://purecss.io/layouts/blog/), is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), and google analytics. If you end up using it, I'd love to see what you do with it so please give me a shout on [twitter](https://twitter.com/dragos_plesca).
+A heavily-modified fork of [dplesca/purehugo](https://github.com/dplesca/purehugo) that removes some unused features and cleans up the styling to work better with Hugo's built-in code syntax highlighting.
+
+This Hugo theme is based on [purecss](http://purecss.io/) from Yahoo, specifically [the purecss blog layout example](http://purecss.io/layouts/blog/). It is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), and google analytics.
 
 ### Installation
 
@@ -41,7 +43,6 @@ For responsive images you could use the built-in responsive image shortcode (wit
 ```
 
 ### Hide Sidebar icons text Options
-
 
 If you would like to hide the text next to the icons on the sidebar, you can add this option in the `params` section of your config file.
 
